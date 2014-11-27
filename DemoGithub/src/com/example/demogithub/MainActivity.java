@@ -13,11 +13,13 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main); 
 		
-		//	push to Server
+		//	push to Server 1
 		
 		//	commit to local 1
 		
 		//	commit to local 2
+		
+		//	push to Server 2
 		
 	}
 
