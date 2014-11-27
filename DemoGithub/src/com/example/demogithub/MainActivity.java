@@ -15,7 +15,9 @@ public class MainActivity extends Activity {
 		
 		//	push to Server
 		
-		//	commit to local
+		//	commit to local 1
+		
+		//	commit to local 2
 		
 	}
 
