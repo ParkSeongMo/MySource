@@ -59,7 +59,7 @@ public class CuzRadioBtn extends LinearLayout {
 		if(onClickListener!=null) radioBtn.setOnCheckedChangeListener(onClickListener);
 
 		Drawable drawable = typedArrayAttr.getDrawable(R.styleable.CuzRadioBtn_BackgroundImage);
-		if(drawable!=null) radioBtn.setBackground(drawable);
+		if(drawable!=null) radioBtn.setBackgroundDrawable(drawable);
 
 		float width = typedArrayAttr.getDimension(R.styleable.CuzRadioBtn_IconWidth, -1);
 		if(width!=-1) radioBtn.setWidth((int) width);
@@ -71,7 +71,7 @@ public class CuzRadioBtn extends LinearLayout {
 		if(marginLeft!=-1){
 			
 			LinearLayout.LayoutParams lp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-			lp.setMarginStart((int)marginLeft);
+			lp.setMargins((int)marginLeft, 0, 0, 0);
 			radioBtn.setLayoutParams(lp);
 		}		
 	}
@@ -93,7 +93,7 @@ public class CuzRadioBtn extends LinearLayout {
 		if(marginLeft!=-1){
 			
 			LinearLayout.LayoutParams lp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-			lp.setMarginStart((int)marginLeft);
+			lp.setMargins((int)marginLeft, 0, 0, 0);
 			tv.setLayoutParams(lp);
 		}			
 	}
