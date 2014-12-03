@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cuzRadio="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="16dp" >
+
+        <com.example.custom.CuzRadioBtn
+            android:id="@+id/CuzRadioBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            cuzRadio:BackgroundImage="@xml/btn_radio"
+            cuzRadio:IconHeight="30dp"
+            cuzRadio:IconWidth="30dp"
+            cuzRadio:LayoutId="@layout/layout_cuz_radio_btn_right"
+            cuzRadio:Text="Radio1"
+            cuzRadio:TextColor="#00FF00"
+            cuzRadio:TextMarginLeft="10dp"
+            cuzRadio:TextSize="10dp" />
+
+        <com.example.custom.CuzRadioBtn
+            android:id="@+id/CuzRadioBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/CuzRadioBtn1"
+            cuzRadio:IconHeight="30dp"
+            cuzRadio:IconWidth="30dp"
+            cuzRadio:LayoutId="@layout/layout_cuz_radio_btn_right"
+            cuzRadio:Text="Radio2"
+            cuzRadio:TextColor="#FF0000"
+            cuzRadio:TextMarginLeft="10dp"
+            cuzRadio:TextSize="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="16dp" >
+
+        <com.example.custom.CuzRadioBtn
+            android:id="@+id/CuzRadioBtn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            cuzRadio:BackgroundImage="@xml/btn_radio"
+            cuzRadio:IconHeight="30dp"
+            cuzRadio:IconWidth="30dp"
+            cuzRadio:LayoutId="@layout/layout_cuz_radio_btn_left"
+            cuzRadio:Text="Radio11"
+            cuzRadio:TextColor="#00FF00"
+            cuzRadio:BtnMarginLeft="10dp"
+            cuzRadio:TextSize="10dp" />
+
+        <com.example.custom.CuzRadioBtn
+            android:id="@+id/CuzRadioBtn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/CuzRadioBtn11"
+            cuzRadio:IconHeight="30dp"
+            cuzRadio:IconWidth="30dp"
+            cuzRadio:LayoutId="@layout/layout_cuz_radio_btn_left"
+            cuzRadio:Text="Radio12"
+            cuzRadio:TextColor="#FF0000"
+            cuzRadio:BtnMarginLeft="10dp"
+            cuzRadio:TextSize="10dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
