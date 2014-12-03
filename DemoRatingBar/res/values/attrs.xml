@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CuzRatingBar">
+        <attr name="star_touchable" format="boolean" />
+        <attr name="star_rating" format="float" />
+        <attr name="star_width" format="dimension" />
+        <attr name="star_height" format="dimension" />
+        <attr name="star_spacing" format="dimension" />
+        <attr name="star_num" format="integer" />
+        <attr name="star_range" format="integer" />
+        <attr name="star_img" format="integer" />
+        <attr name="star_bg" format="integer" />
+    </declare-styleable>
+
+</resources>
